@@ -3,7 +3,7 @@ def my_each(arg)
   
   while int < arg.length 
     yield(arg[int])
-    int = int + 1 
+    int += 1 
   end 
 
   arg
